@@ -7,7 +7,8 @@
 <div class="row">
     <div class="col-sm-12">
             <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
+
+                <h3><span class="fa fa-linkedin"></span> Linkedin</h3>
                 <% if (user.linkedin.token) { %>
                 <p>
                     <strong>id</strong>: <%= user.linkedin.id %><br>
@@ -24,7 +25,8 @@
 </div>
 <div class="row">
     <!-- LOCAL INFORMATION -->
-    <div class="col-sm-6">
+
+    <div class="col-sm-12">
         <div class="well">
             <h3><span class="fa fa-user"></span> Local</h3>
             <% if (user.local.email) { %>
@@ -40,7 +42,8 @@
         </div>
     </div>
     <!-- FACEBOOK INFORMATION -->
-    <div class="col-sm-6">
+
+    <div class="col-sm-12">
         <div class="well">
             <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
             <!-- check if the user has this token (is the user authenticated with this social account) -->
@@ -60,7 +63,9 @@
 </div>
 <div class="row">
     <!-- TWITTER INFORMATION -->
-    <div class="col-sm-6">
+
+    <div class="col-sm-12">
+
         <div class="well">
             <h3 class="text-info"><span class="fa fa-twitter"></span> Twitter</h3>
             <% if (user.twitter.token) { %>
@@ -77,7 +82,7 @@
         </div>
     </div>
     <!-- GOOGLE INFORMATION -->
-    <div class="col-sm-6">
+    <div class="col-sm-12">
         <div class="well">
             <h3 class="text-danger"><span class="fa fa-google-plus"></span> Google+</h3>
             <% if (user.google.token) { %>
